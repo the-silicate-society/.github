@@ -1,0 +1,26 @@
+# macOS system files
+.DS_Store
+.Trashes
+
+# Windows system files
+Thumbs.db
+
+# IDE/editor config folders (WebStorm, VS Code, etc.)
+.idea/
+.vscode/
+
+# Neovim / Vim temp files
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Backup files
+*~
+
+# Node project junk (just in case templates use node tooling)
+node_modules/
+package-lock.json
+
+# Other common temp files
+*.log

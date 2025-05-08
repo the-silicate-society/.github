@@ -1,0 +1,24 @@
+name: Bug report
+description: File a bug report to help us improve
+title: "[Bug] <describe the issue>"
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the issue and how to reproduce it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+  - type: input
+    id: obsidian-version
+    attributes:
+      label: Obsidian version
