@@ -6,7 +6,7 @@ The format follows [Conventional Commits](https://www.conventionalcommits.org/).
 
 ---
 
-## [0.1.0] – 2025-05-09
+## [0.0.2] – 2025-05-09
 
 ### Added
 
@@ -20,8 +20,12 @@ The format follows [Conventional Commits](https://www.conventionalcommits.org/).
 
 ---
 
-## Unreleased
+## [0.0.1] – 2025-05-08
 
-- Planned: GitHub/Obsidian two-way sync support
-- Planned: Template generator from intermediate format (Markdown ↔ YAML)
-- Planned: Custom plugin to automate folder note and sidebar behavior
+### Added
+
+- Established GitHub organization profile with README and brand voice
+- Uploaded initial banner and logo assets (`silicate-society-cover.png`)
+- Added early placeholder CONTRIBUTING.md
+- Introduced bug/feature issue templates and a pull request template (Markdown)
+- Added `.gitignore` for org profile hygiene
