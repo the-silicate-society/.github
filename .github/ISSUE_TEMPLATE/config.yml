@@ -1,14 +1,9 @@
 blank_issues_enabled: false
 contact_links: []
 issue_templates:
-  - name: Bug report
-    description: Report something broken or incorrect.
-    title: "[Bug] "
-    labels: [bug]
-    file: bug_report.yml
-
-  - name: Feature request
-    description: Suggest a new idea, enhancement, or capability.
-    title: "[Feature] "
-    labels: [enhancement]
-    file: feature_request.yml
+  - name: User Story
+    description: Create a user story with acceptance criteria and BDD scenarios
+    title: "story(scope): user goal"
+    labels: ["story"]
+    assignees: []
+    body: .github/ISSUE_TEMPLATE/user_story_template.md
